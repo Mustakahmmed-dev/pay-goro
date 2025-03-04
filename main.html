@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,94 +12,135 @@
 
 
 </head>
+
 <body class="bg-slate-800">
     <section class="max-w-md min-h-screen mx-auto bg-slate-100">
         <header class="bg-white p-4 sticky border-b border-slate-400">
             <nav class="flex justify-between">
-               <div class="flex gap-4 items-center">
-                <img class="w-14 rounded-full" src="images/Mustak Ahmmed Profile Picture.jpg" alt="Uesr profile">
-                <div>
-                    <h4 class="text-xl text-gray-800 font-semibold">Mustak Ahmmed</h4>
-                    <p class="font-semibold">Balance: <span>25000</span></p>
+                <div class="flex gap-4 items-center">
+                    <img class="w-14 rounded-full" src="images/Mustak Ahmmed Profile Picture.jpg" alt="Uesr profile">
+                    <div>
+                        <h4 class="text-xl text-gray-800 font-semibold">Mustak Ahmmed</h4>
+                        <p class="font-semibold">Balance: <span>25000</span></p>
+                    </div>
                 </div>
-               </div>
-               <div class="flex gap-3 bg-slate-100 p-3 rounded-lg">
-                <button><img class="w-7" src="images/bonus.png" alt=""> </button>
-                <button> <img class="w-7" src="images/user-setting.png" alt=""> </button>
-               </div>
+                <div class="flex gap-3 bg-slate-100 p-3 rounded-lg">
+                    <button><img class="w-7" src="images/bonus.png" alt=""> </button>
+                    <button> <img class="w-7" src="images/user-setting.png" alt=""> </button>
+                </div>
             </nav>
-           <marquee behavior="" direction="left"> <p class="italic text-green-800 mt-4">Ehon oite tuin tiya lenden gori fariba anrar Arakan hoite </p></marquee>
+            <marquee behavior="" direction="left">
+                <p class="italic text-green-800 mt-4">Ehon oite tuin tiya lenden gori fariba anrar Arakan hoite </p>
+            </marquee>
         </header>
 
 
-        <!-- Payment cards -->
-        <section class="p-5 border-b border-b-gray-300">
-            <h1 class="text-2xl capitalize font-semibold">Choose your payment method</h1>
-        
-            <div class="grid grid-cols-3 my-5 gap-3">
+        <main id="main">
+            <!-- Payment cards -->
+            <section class="p-5 border-b border-b-gray-300">
+                <h1 class="text-2xl capitalize font-semibold">Choose your payment method</h1>
 
-                <div class="payment-card text-center py-5 bg-slate-200 rounded-lg shadow-md cursor-pointer">
-                    <img class="w-12 inline" src="images/send-money.png" alt="">
-                    <h2 class=" font-semibold text-slate-700">Send Money</h2>
+                <div class="grid grid-cols-3 my-5 gap-3">
+
+                    <div id="send-money-card"
+                        class="payment-card text-center py-5 bg-slate-200 rounded-lg shadow-md cursor-pointer">
+                        <img class="w-12 inline" src="images/send-money.png" alt="">
+                        <h2 class=" font-semibold text-slate-700">Send Money</h2>
+                    </div>
+                    <div class="payment-card text-center py-5 bg-slate-200 rounded-lg shadow-md cursor-pointer">
+                        <img class="w-12 inline" src="images/add-money.png" alt="">
+                        <h2 class=" font-semibold text-slate-700">Add Money</h2>
+                    </div>
+                    <div class="payment-card text-center py-5 bg-slate-200 rounded-lg shadow-md cursor-pointer">
+                        <img class="w-12 inline" src="images/bill-pay.png" alt="">
+                        <h2 class=" font-semibold text-slate-700">Bill Pay</h2>
+                    </div>
+                    <div class="payment-card text-center py-5 bg-slate-200 rounded-lg shadow-md cursor-pointer">
+                        <img class="w-12 inline" src="images/bonus.png" alt="">
+                        <h2 class=" font-semibold text-slate-700">Get Bonus</h2>
+                    </div>
+                    <div class="payment-card text-center py-5 bg-slate-200 rounded-lg shadow-md cursor-pointer">
+                        <img class="w-12 inline" src="images/transactions-history.png" alt="">
+                        <h2 class=" font-semibold text-slate-700">Transactions History</h2>
+                    </div>
+
+
                 </div>
-                <div class="payment-card text-center py-5 bg-slate-200 rounded-lg shadow-md cursor-pointer">
-                    <img class="w-12 inline" src="images/add-money.png" alt="">
-                    <h2 class=" font-semibold text-slate-700">Add Money</h2>
+            </section>
+
+            <!-- Offers -->
+            <section class="p-5">
+                <h1 class="text-2xl font-semibold text-slate-800">Shop From The Top Stores</h1>
+
+                <div class="grid grid-cols-4 my-5 gap-2">
+                    <div class="shadow-sm text-center py-4 rounded-lg bg-blue-50">
+                        <img class="inline w-12" src="images/mobile-recharge.png" alt="Shop from online store">
+                        <a class="block text-left" href="">Big offer is ongoing...</a>
+                    </div>
+                    <div class="shadow-sm text-center py-4 rounded-lg bg-blue-50">
+                        <img class="inline w-12" src="images/mobile-recharge.png" alt="Shop from online store">
+                        <a class="block text-left" href="">Big offer is ongoing...</a>
+                    </div>
+                    <div class="shadow-sm text-center py-4 rounded-lg bg-blue-50">
+                        <img class="inline w-12" src="images/mobile-recharge.png" alt="Shop from online store">
+                        <a class="block text-left" href="">Big offer is ongoing...</a>
+                    </div>
+                    <div class="shadow-sm text-center py-4 rounded-lg bg-blue-50">
+                        <img class="inline w-12" src="images/mobile-recharge.png" alt="Shop from online store">
+                        <a class="block text-left" href="">Big offer is ongoing...</a>
+                    </div>
+                    <div class="shadow-sm text-center py-4 rounded-lg bg-blue-50">
+                        <img class="inline w-12" src="images/mobile-recharge.png" alt="Shop from online store">
+                        <a class="block text-left" href="">Big offer is ongoing...</a>
+                    </div>
                 </div>
-                <div class="payment-card text-center py-5 bg-slate-200 rounded-lg shadow-md cursor-pointer">
-                    <img class="w-12 inline" src="images/bill-pay.png" alt="">
-                    <h2 class=" font-semibold text-slate-700">Bill Pay</h2>
+            </section>
+
+        </main>
+
+
+
+        <!-- Action of money process operations -->
+        <section>
+            <!-- Send money form -->
+            <section id="send-money-form" class="hidden">
+                <!-- Send Money Form -->
+                <div class="flex justify-center my-5">
+                    <div class="card w-full max-w-sm shrink-0 shadow-2xl">
+                        <div class="card-body">
+                            <div class="fieldset">
+                            <h4 class="text-xl ">Send Money</h4>
+                            </div>
+                            <fieldset id="send-page-1" class="fieldset">
+                                <label class="fieldset-label"> Account Number</label>
+                                <input id="receiver-account" type="number" class="input rounded outline-none" placeholder="Receiver's account" />
+                            </fieldset>
+
+                            <button id="next-btn" class="btn btn-neutral rounded-full mt-4">Next</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="payment-card text-center py-5 bg-slate-200 rounded-lg shadow-md cursor-pointer">
-                    <img class="w-12 inline" src="images/bonus.png" alt="">
-                    <h2 class=" font-semibold text-slate-700">Get Bonus</h2>
-                </div>
-                <div class="payment-card text-center py-5 bg-slate-200 rounded-lg shadow-md cursor-pointer">
-                    <img class="w-12 inline" src="images/transactions-history.png" alt="">
-                    <h2 class=" font-semibold text-slate-700">Transactions History</h2>
-                </div>
-            
-            
-            </div>
+            </section>
+
+
+
+
+
         </section>
 
-        <!-- Offers -->
-         <section class="p-5">
-            <h1 class="text-2xl font-semibold text-slate-800">Shop From The Top Stores</h1>
-
-            <div class="grid grid-cols-4 my-5 gap-2">
-                <div class="shadow-sm text-center py-4 rounded-lg bg-blue-50">
-                    <img class="inline w-12" src="images/mobile-recharge.png" alt="Shop from online store">
-                    <a class="block text-left" href="">Big offer is ongoing...</a>
-                </div>
-                <div class="shadow-sm text-center py-4 rounded-lg bg-blue-50">
-                    <img class="inline w-12" src="images/mobile-recharge.png" alt="Shop from online store">
-                    <a class="block text-left" href="">Big offer is ongoing...</a>
-                </div>
-                <div class="shadow-sm text-center py-4 rounded-lg bg-blue-50">
-                    <img class="inline w-12" src="images/mobile-recharge.png" alt="Shop from online store">
-                    <a class="block text-left" href="">Big offer is ongoing...</a>
-                </div>
-                <div class="shadow-sm text-center py-4 rounded-lg bg-blue-50">
-                    <img class="inline w-12" src="images/mobile-recharge.png" alt="Shop from online store">
-                    <a class="block text-left" href="">Big offer is ongoing...</a>
-                </div>
-                <div class="shadow-sm text-center py-4 rounded-lg bg-blue-50">
-                    <img class="inline w-12" src="images/mobile-recharge.png" alt="Shop from online store">
-                    <a class="block text-left" href="">Big offer is ongoing...</a>
-                </div>
-            </div>
-         </section>
-
-
-         <footer class="flex justify-around p-5 bg-slate-900">
-            <img class="w-10 cursor-pointer" src="images/user-setting.png" alt="setting">
-            <img class="w-10 cursor-pointer" src="images/user-setting.png" alt="setting">
-            <img class="w-10 cursor-pointer" src="images/user-setting.png" alt="setting">
-            <img class="w-10 cursor-pointer" src="images/user-setting.png" alt="setting">
-            <img class="w-10 cursor-pointer" src="images/user-setting.png" alt="setting">
-            
-         </footer>
+        <!-- Main body container ends here -->
     </section>
+    <footer class="max-w-md mx-auto flex justify-around p-5 bg-slate-900 ">
+        <img class="w-10 cursor-pointer" src="images/user-setting.png" alt="setting">
+        <img class="w-10 cursor-pointer" src="images/user-setting.png" alt="setting">
+        <img class="w-10 cursor-pointer" src="images/user-setting.png" alt="setting">
+        <img class="w-10 cursor-pointer" src="images/user-setting.png" alt="setting">
+        <img class="w-10 cursor-pointer" src="images/user-setting.png" alt="setting">
+
+    </footer>
+
+    <script src="utilities/utilities.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
+
 </html>

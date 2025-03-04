@@ -9,3 +9,16 @@ function getValue(id){
 function hideElementByID(id){
     document.getElementById(id).style.display = "none";
 }
+
+
+// Main sections part
+
+// Hide elements
+function hideElement(id){
+    document.getElementById(id).style.display = "none";
+}
+
+// Show Element
+function showElement(id){
+    document.getElementById(id).style.display = "block";
+}
