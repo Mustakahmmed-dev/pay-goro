@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
 
 
 </head>
+
 <body class="bg-slate-100">
     <section class="max-w-md bg-slate-300 min-h-screen mx-auto">
         <header>
@@ -20,7 +22,31 @@
             </nav>
         </header>
 
-        
+        <section id="login-form-sec">
+            <div class="max-w-[200px] mx-auto mt-5 ">
+                <img class="w-[100] rounded-full" src="images/Pay Goro Logo.png" alt="Pay goro logo">
+            </div>
+            <!-- Login Form -->
+            <div class="flex justify-center">
+                <div class="card w-full max-w-sm shrink-0 shadow-2xl">
+                    <div class="card-body">
+                        <fieldset class="fieldset">
+                            <h2 class="text-2xl font-semibold text-gray-600">Enter your details to login</h2>
+                            <label class="fieldset-label">Account</label>
+                            <input id="login-account" type="number" class="input" placeholder="Account" />
+                            <label class="fieldset-label">Password</label>
+                            <input id="login-pin" type="number" class="input" placeholder="Pin" />
+                            <button id="login-btn" class="btn btn-neutral mt-4">Login</button>
+                            <div><a class="link link-hover">Forgot Pin?</a></div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
+
+    <script src="scripts/login.js"></script>
+    <script src="utilities/utilities.js"></script>
 </body>
+
 </html>
