@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-
 </head>
-
 <body class="bg-slate-100">
     <section class="max-w-md bg-slate-300 min-h-screen mx-auto">
         <header>
@@ -33,9 +30,9 @@
                         <fieldset class="fieldset">
                             <h2 class="text-2xl font-semibold text-gray-600">Enter your details to login</h2>
                             <label class="fieldset-label">Account</label>
-                            <input id="login-account" type="number" class="input" placeholder="Account" />
+                            <input id="login-account" type="number" class="input" maxlength="11" placeholder="Account" />
                             <label class="fieldset-label">Password</label>
-                            <input id="login-pin" type="number" class="input" placeholder="Pin" />
+                            <input id="login-pin" type="number" class="input" placeholder="Pin" maxlength="4"/>
                             <button id="login-btn" class="btn btn-neutral mt-4">Login</button>
                             <div><a class="link link-hover">Forgot Pin?</a></div>
                         </fieldset>
